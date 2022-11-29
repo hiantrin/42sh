@@ -3,40 +3,48 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/07 06:13:32 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/12 16:02:33 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/04/05 17:31:55 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/04/20 02:46:24 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+static int		l(char *str)
 {
-	size_t	i;
-	size_t	t;
-	char	*s0;
+	int		i;
 
 	i = 0;
-	t = 0;
-	if (s1 && s2)
+	while (str[i])
+		i++;
+	return (i);
+}
+
+char			*ft_strjoin(char const *str1, char const *str2)
+{
+	int		i;
+	int		j;
+	char	*arr;
+	char	*s1;
+	char	*s2;
+
+	i = -1;
+	j = -1;
+	if (str1 == NULL || str2 == NULL)
+		return (NULL);
+	s1 = (char *)str1;
+	s2 = (char *)str2;
+	if (!(arr = (char *)malloc(sizeof(char) * (l(s1) + l(s2) + 1))))
+		return (NULL);
+	while (s1[++i] != '\0')
+		arr[i] = s1[i];
+	while (s2[++j] != '\0')
 	{
-		if ((s0 = ft_strnew(ft_strlen(s1) + ft_strlen(s2))))
-		{
-			while (s1[i])
-			{
-				s0[i] = s1[i];
-				i++;
-			}
-			while (s2[t])
-			{
-				s0[i] = s2[t];
-				t++;
-				i++;
-			}
-			return (s0);
-		}
+		arr[i] = s2[j];
+		i++;
 	}
-	return (NULL);
+	arr[i] = '\0';
+	return (arr);
 }

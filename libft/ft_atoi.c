@@ -3,37 +3,37 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/03 22:27:59 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/12 14:40:45 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/04/01 17:05:14 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/12/03 03:07:19 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+int		ft_atoi(const char *str)
 {
-	int a;
-	int b;
-	int c;
+	unsigned int	i;
+	unsigned int	sing;
+	unsigned int	res;
 
-	a = 0;
-	b = 0;
-	c = 0;
-	while ((str[a] >= 9 && str[a] <= 13) || str[a] == 32)
-		a++;
-	if (str[a] == '-')
-		c = 1;
-	if (str[a] == '+' || str[a] == '-')
-		a++;
-	while (str[a] >= '0' && str[a] <= '9' && str[a] != '\0')
+	i = 0;
+	sing = 1;
+	while (ft_space(str[i]) == 1)
+		i++;
+	if (str[i] == '+')
+		i++;
+	else if (str[i] == '-')
 	{
-		b = b * 10 + (str[a] - 48);
-		a++;
+		sing = sing * -1;
+		i++;
 	}
-	if (c == 1)
-		return (-b);
-	else
-		return (b);
+	res = 0;
+	while (str[i] != '\0' && (str[i] <= '9' && str[i] >= '0'))
+	{
+		res = res * 10 + (str[i] - 48);
+		i++;
+	}
+	return (res * sing);
 }

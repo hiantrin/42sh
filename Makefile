@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: hiantrin <hiantrin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/06/19 17:15:33 by szakaria          #+#    #+#              #
-#    Updated: 2020/03/01 18:59:43 by hiantrin         ###   ########.fr        #
+#    Created: 2020/12/02 19:57:34 by ommadhi           #+#    #+#              #
+#    Updated: 2020/12/03 20:33:08 by hiantrin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,39 +25,114 @@ _END = \x1b[0m
 LIB = libft/libft.a
 LIB2 = GTN/get_next_line.c
 
-SRC = mini_cd.c\
-		mini_cd2.c\
-		mini_echo.c\
-		mini_quote.c\
-		mini_setenv.c\
-		mini_setenv2.c\
-		mini_stock.c\
-		mini_stock2.c\
-		mini_systeme.c\
-		mini_unsetenv.c\
-		minishell.c\
-		minishell1.c\
-		minishell2.c\
-		myshell.c hazma.c help_to_pipe.c redirect.c help_redirect.c \
-		parse_the_re.c trait_the_and.c mini_helpo.c help_trait_and.c \
-		help_hamza.c slash_quote.c ft_strsplito.c make_home.c \
-		replace_with_env.c get_path.c create_env.c help_all.c mini_type.c \
-		and_and.c check_cd_hamza.c one_for_all.c one_for_all_v2.c 42_help.c\
-		read_line/affichage_line.c\
-		read_line/alt_left_right.c\
-		read_line/alt_up_down.c\
-		read_line/copy_mode.c\
-		read_line/copy_mode2.c\
-		read_line/delete_line.c\
-		read_line/first_last.c\
-		read_line/historique.c\
-		read_line/move_left.c\
-		read_line/move_right.c\
-		read_line/plus_char.c\
-		read_line/read_keybord.c\
-		read_line/readline.c\
-		read_line/readline_v2.c\
-		read_line/save_historique.c\
+SRC = shell_src/minishell.c\
+ 		GTN/get_next_line.c\
+		shell_src/trait.c\
+		shell_src/execve.c\
+		shell_src/list.c\
+		shell_src/execve_help.c\
+		shell_src/init_shell.c\
+		shell_src/make_job.c\
+		shell_src/wait_job.c\
+		shell_src/jobs.c\
+		shell_src/help.c\
+		shell_src/all_command_jobs.c\
+		shell_src/help_command_jobs.c\
+		shell_src/help_command_jobs_v2.c\
+		shell_src/help_v2.c\
+		shell_src/checker.c\
+		shell_src/checker_v2.c\
+		shell_src/checker_v3.c\
+		shell_src/checker_v4.c\
+		shell_src/parsing.c\
+		shell_src/help_parsing.c\
+		shell_src/help_parsing_v2.c\
+		shell_src/help_parsing_v3.c\
+		shell_src/trait_pipe.c\
+		shell_src/redirect.c\
+		shell_src/redirect_v2.c\
+		shell_src/replace_with_env.c\
+		shell_src/make_home.c\
+		shell_src/slash_quote.c\
+		shell_src/redirect_help.c\
+		shell_src/redirect_v3.c\
+		shell_src/parse_the_redirect.c\
+		shell_src/redirect_help_v2.c\
+		shell_src/help_trait_and.c\
+		shell_src/get_path.c\
+		shell_src/filter_command.c\
+		shell_src/built_back_fore.c\
+		shell_src/built_env_echo.c\
+		shell_src/mini_type.c\
+		shell_src/built_unset.c\
+		shell_src/built_export.c\
+		shell_src/built_cd.c\
+		shell_src/help_cd.c\
+		shell_src/help_cd_v2.c\
+		shell_src/variables.c\
+		shell_src/move_variables.c\
+		shell_src/help_variable.c\
+		shell_src/help_v3.c\
+		shell_src/signals.c\
+		shell_src/trait_slash_quote.c\
+		shell_src/help_v4.c\
+		shell_src/help_v5.c\
+		shell_src/help_slash_quote.c\
+		shell_src/help_v6.c\
+		shell_src/trait_parenthesis.c\
+		shell_src/help_v7.c\
+		shell_src/help_v8.c\
+		shell_src/help_v9.c\
+		shell_src/help_v10.c\
+		shell_src/subshell.c\
+		shell_src/subshell_help2.c\
+		shell_src/subshell_help.c\
+		shell_src/subshell_help3.c\
+		shell_src/parse_subshell.c\
+		shell_src/final_trait.c\
+		shell_src/alias_omar.c\
+		readline/ft_autocomp2.c\
+        readline/ft_copy.c\
+        readline/ft_multi_line.c\
+        readline/ft_mv_cursor.c\
+        readline/ft_press_key.c\
+        readline/ft_readline.c\
+        readline/ft_save_history.c\
+        readline/get_cur_posix.c\
+        readline/ft_scroll.c\
+        readline/ft_add_and_del_char.c\
+        readline/ft_goto.c\
+        readline/ft_ctr_c.c\
+        readline/ft_free_his.c\
+        readline/ft_print_his.c\
+        readline/ft_autoco_search.c\
+		ft_autocmp/ft_search_in_env.c\
+        ft_autocmp/ft_init_autocmp.c\
+        ft_autocmp/ft_search_for_bin.c\
+        ft_autocmp/ft_print_matchs.c\
+        ft_autocmp/ft_search_in_dirs.c\
+        ft_autocmp/ft_alloc_list.c\
+		ft_history/ft_save_his_in_file.c\
+		ft_alias/ft_alloc_alias_node.c\
+		ft_alias/ft_print_aliases.c\
+		ft_alias/ft_alias.c\
+		ft_alias/ft_free_aliases_list.c\
+		ft_alias/ft_unalias.c\
+		ft_alias/ft_save_aliases.c\
+		builtin_test/ft_test.c\
+		builtin_test/test_file_tools1.c\
+		builtin_test/test_file_tools2.c\
+		builtin_test/test_file.c\
+		builtin_test/test_s_and_n_tools.c\
+		builtin_test/test_string_and_numeric.c\
+		hashtable/hashtable.c\
+		hashtable/hash_tools.c\
+		hashtable/flags.c\
+		hashtable/errors_print.c\
+		hashtable/h_tools.c\
+		hashtable/hash_tools2.c\
+		hashtable/alloc_hash.c\
+
 
 C       = gcc
 OBJ = $(SRC:.c=.o)

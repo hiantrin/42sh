@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/01 07:14:02 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/21 23:41:31 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/04/11 20:23:14 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/04/17 22:08:39 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,23 +14,27 @@
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
-	size_t ld;
-	size_t ls;
-	size_t ln;
+	size_t	i;
+	size_t	j;
+	size_t	len_dest;
+	char	*str;
 
-	ln = 0;
-	ld = ft_strlen(dst);
-	ls = ft_strlen(src);
-	if (ld >= size)
-		ls = ls + size;
-	else
-		ls = ls + ld;
-	while (src[ln] && ld + 1 < size)
+	str = (char *)src;
+	i = 0;
+	j = 0;
+	len_dest = ft_strlen(dst);
+	while (dst[i])
+		i++;
+	if (size > ft_strlen(dst))
 	{
-		dst[ld] = src[ln];
-		ln++;
-		ld++;
+		while (str[j] && i < size - 1)
+		{
+			dst[i] = str[j];
+			i++;
+			j++;
+		}
+		dst[i] = '\0';
+		return (len_dest + ft_strlen(str));
 	}
-	dst[ld] = '\0';
-	return (ls);
+	return (ft_strlen(str) + size);
 }

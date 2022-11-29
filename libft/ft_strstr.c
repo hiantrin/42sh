@@ -3,34 +3,40 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/01 22:58:40 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/22 01:52:40 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/03/31 17:08:19 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/04/17 22:32:00 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strstr(const char *str, const char *srh)
+char	*ft_strstr(const char *s, const char *s2)
 {
-	int	j0;
-	int	j1;
+	char	*s1;
+	int		i;
+	int		j;
+	int		index;
 
-	j0 = 0;
-	j1 = 0;
-	while (str[j0])
+	s1 = (char *)s;
+	i = 0;
+	j = 0;
+	index = 0;
+	if (s2[i] == '\0')
+		return (s1);
+	while (s1[i] != '\0')
 	{
-		j1 = 0;
-		while (str[j0 + j1] == srh[j1])
+		index = i;
+		j = 0;
+		while (s1[index] == s2[j] && s2[j] != '\0')
 		{
-			j1++;
-			if (srh[j1] == '\0')
-				return ((char *)str + j0);
+			index++;
+			j++;
 		}
-		j0++;
+		if (s2[j] == '\0')
+			return (&s1[i]);
+		i++;
 	}
-	if (srh[j1] == '\0')
-		return ((char *)str);
-	return (0);
+	return (NULL);
 }

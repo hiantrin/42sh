@@ -3,29 +3,66 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/08 03:46:53 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/19 03:12:07 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/04/05 18:01:06 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/10/17 16:32:15 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s)
+static	int		ft_isspace(char c)
 {
-	int i;
-	int j;
+	if (c == ' ' || c == '\t' || c == '\n')
+		return (1);
+	return (0);
+}
+
+static	int		space_plus(char *str)
+{
+	size_t	i;
 
 	i = 0;
-	if (s)
+	if (ft_isspace(str[i]) == 1)
 	{
-		j = ft_strlen(s) - 1;
-		while (s[i] && (s[i] == ' ' || s[i] == '\n' || s[i] == '\t'))
+		while (ft_isspace(str[i]) == 1)
+		{
 			i++;
-		while (j > i && (s[j] == ' ' || s[j] == '\n' || s[j] == '\t'))
-			j--;
-		return (ft_strsub(s, i, j - i + 1));
+			if (str[i + 1] == '\0')
+				return (0);
+		}
+		return (i);
+	}
+	return (0);
+}
+
+static	int		space_min(char *str)
+{
+	size_t	i;
+	size_t	j;
+
+	i = ft_strlen(str) - 1;
+	while (ft_isspace(str[i]) == 1)
+		i--;
+	j = ft_strlen(str) - i - 1;
+	return (j);
+}
+
+char			*ft_strtrim(char const *s)
+{
+	int		i;
+	char	*str;
+	char	*arr;
+
+	str = (char*)s;
+	if (s != NULL)
+	{
+		i = (ft_strlen(str) - (space_plus(str) + space_min(str)));
+		arr = ft_strsub(str, space_plus(str), i);
+		if (arr == NULL)
+			return (NULL);
+		return (arr);
 	}
 	return (NULL);
 }

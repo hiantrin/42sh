@@ -1,0 +1,6 @@
+alias ^ls-=aa
+alias ^lsd-=aa
+alias ^dd=qqq
+alias ^go=land
+alias ^kk=123456
+alias ^ls=ls -G

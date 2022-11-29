@@ -1,0 +1,1865 @@
+ls
+clear
+ls -la
+exit
+ls
+clear
+exit
+ls
+ls -la
+exit
+make
+exit
+ls
+ls -la
+clear
+ls -ll
+exit
+ls -la
+lool
+exit
+exit
+clear
+alias
+alias p=pp
+alias
+clear
+exit
+exit
+exit
+exit
+exit
+alias dd=d
+alias
+alias p=888
+alias
+exit
+exit
+exit
+ls
+alias
+make
+exit
+alias
+exit
+exit
+ls
+exit
+exit
+ls
+alias
+alias g=g
+alias
+make
+exit
+exit
+exit
+exit
+exit
+exit
+alias gg=g
+exit
+alias l-=aa
+alias ls-=aa
+alias lsd-=aa
+alias
+exit
+exit
+exit
+exit
+exit
+exit
+alias lol=ss
+alias dd=qqq
+alias go=land
+exit
+ls
+exit
+ls
+alias
+exit
+alias
+alias kk=aa
+alias
+clear 
+ls
+clear 
+ls
+alias
+exit
+exit
+alias
+p
+exit
+alias ls='ls -G'
+ls
+ls
+ls -G
+ls
+exit
+a
+alias
+p
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+test l
+$?
+echo $?
+exit
+exit
+exit
+exit
+exit
+ls
+${?}
+exit
+test lll
+${?}
+test -d lll
+${?}
+exit
+mkfifo pipe11
+test -p pipe11 
+${?}
+test -p Makefile 
+${?}
+test
+test
+test 
+exit
+test
+test     
+test     
+test
+exit
+test hfgjdsf fgjdhfgk
+test jghjfghjkdf -ne jhgkdfg
+exit
+exit
+ls
+hash
+exit
+ls
+hash
+ll
+exit
+ls
+hash
+exit
+ls
+hash
+ls
+exit
+ls
+hash
+hash -r
+hash
+ls
+hash
+hash -p /usr/bin/pwd l
+l
+hash
+hash -d ls
+hash
+l
+pwd
+hash
+l
+hash
+ll
+zz
+hash
+alias l=ls
+l
+ls
+hash
+l
+hash
+l
+hash
+hash -l
+hash -r
+l
+unalias l
+l
+exit
+clear
+pwd
+touch aa
+chmod -x aa 
+ls -l aa
+chmod -x 42sh 
+./42sh
+/home/mrxy/Desktop/42omar/42omar/42sh
+/bin/ls
+chmod -x /usr/bin/ls
+sudo su
+ls
+ls
+bash
+exit
+ls
+exit
+ls
+ll
+/usr/bin/ls
+exit
+ls
+/usr/bin/ls
+/usr/bin/pwd
+exit
+/usr/bin/ls
+exit
+/usr/bin/ls
+hash
+ls
+hash
+/usr/bin/kk
+exit
+/usr/bin/ls
+hash
+ls
+hash
+ls
+exit
+clear
+hash
+clear
+hash
+l
+hash -p /usr/bin/pwd l
+l
+hash
+l
+hash
+l
+hash -l
+alias l=ls
+l
+hash
+l
+hash
+/usr/bin/ls
+ls
+hash -r
+hash
+ls
+hash
+hash -l
+/fhdsjkhfksd
+exit
+/usr/bin/ls
+hash
+exit
+/usr/bin/ls
+hash
+/usr/bin/ll
+ls
+hash
+/usr
+pwd
+bash
+/usr
+exit
+/usr
+exit
+/usr
+/usr/bin/ls
+/fjkldsfjsd
+exit
+ls
+hash
+exit
+ls
+hash
+/usr/bin/pwd
+hash
+pwd
+hash
+pwd
+hash
+pwd
+hash
+fhjkds
+/usr
+/usr/bin/fdfd
+hash -l
+hash -d pwd
+hash
+exit
+ls
+hash
+ls
+exit
+ls
+pwd
+hash
+/usr/bin/ls
+hash
+exit
+hash
+ls
+hash
+$(hash -r)
+hash
+test hjkhjk
+echo $(1)
+bash
+test fdfd
+$1
+echo $1
+$?
+echo $?
+$(?)
+${?}
+test jfhdkjfd
+${?}
+test
+${?}
+exit
+exit
+ls
+pwd
+$(ls)
+$(pwd)
+bash
+hash
+ls
+hash
+$(pwd)
+hash
+ls
+hash
+$(hash -r)
+hash
+exit
+hash
+ls
+hash
+pwd
+clear
+ls
+pwd
+pwd
+pwd
+clear
+hash
+$(hash -r)
+exit
+hash
+ls
+hash
+$(pwd)
+hash
+exit
+clear
+hash
+ls
+$(hash -r)
+hash
+exit
+ls
+hash
+pwd
+hash
+$(clear)
+hash
+exit
+ls
+hash
+$(pwd)
+hash
+exit
+ls
+hash
+pwd
+exit
+ls
+hash
+pwd
+exit
+ú
+exit
+clear
+hash
+pwd
+ls
+$(cat -e aa | wc -c)
+hash
+exit
+ls
+hash
+pwd
+hash
+$(wc -c fhdkjfhkjds)
+hash
+exit
+$(
+askksakdsa
+sadsad
+)
+( asdasddas; assdas; )
+exit
+$(
+kakkasd")
+"
+)
+exit
+{ asdasdads}
+exit
+exit
+{ assa}
+exit
+}
+exit
+{jjllk}
+{jjllk; }
+{ls;}
+exit
+ls
+$?
+${?}
+$?
+${?}
+echo $?
+echo ${?}
+cat &
+fg
+ls -lR /
+fg
+clear
+exit
+exit
+ls
+(ls)
+exit
+exit
+exit
+exit
+exit l
+ls l
+(ls)
+exit
+exit l
+l
+exit
+(ls)
+(ls)
+exit
+{ls}
+{ls}
+exit
+exit
+exit
+exit
+exit
+(ls)
+exit
+exit
+exit
+exit
+exit
+pwd
+exit
+ls
+exit
+(ls)
+exit
+exit
+(ls) l
+exit
+(ls) l
+(ls)
+(ls)
+(ls) l
+exit
+(Ls) l
+(ls) l
+exit
+(ls)
+exit
+(ls) l
+(ls) l
+exit
+exit
+(ls)
+exit
+exit
+exit
+{ls}
+exit
+exit
+ls -lR /
+jobs
+fg
+jobs
+fg
+jobs
+exit
+ls
+exit
+(ls) >l
+exit
+hash
+l
+ls
+has
+hash
+exit
+ls
+exit
+{ ls;}
+exit
+{ ls;}
+exit
+{ ls;}
+{ ls;}
+exit
+{ ls;}
+exit
+ls &
+ls &
+ls &
+"
+asdjasd
+sadsad
+"
+"
+asdjasd
+sadsad
+"
+"
+asdjasd
+"
+"
+asdjasd
+s
+"
+clear
+exit
+ls
+(ls)
+exit
+(ls)
+{ls}
+{ ls}
+{ ls;}
+exit
+(ls)
+"
+"
+exit
+{ls}
+exit
+exit
+{ls}
+exit
+{ls}
+exit
+{ls}
+{ ls;}
+exit
+exit
+(exit)
+(exit)
+exit
+ú
+"
+"
+exit
+echo hamza
+exit
+ls
+exit
+s
+ls
+exit
+(ls)
+exit
+(ls)
+exit
+(ls)
+{ls}
+{ ls;}
+exit
+$(ls)
+$(ls) >l
+echo $(ls) >l
+cat l
+exit
+ls
+hash
+exit
+ls
+hash
+/usr
+/usr/gfgf
+/usr/ls
+/usr/bin/ls
+/bin/ls
+hash
+pwd
+hash
+hash -d pwd
+hash
+pwd
+clear
+hash
+hash -d ls pwd hfjdsf
+hash
+hash -p /bin/ls p
+p
+hash -p /bin/ls m
+m
+hash
+exit
+ls
+hash
+/usr
+/fhdjkfds
+clear
+hash
+hash -d clear
+hash
+pwd
+hash
+hash -r
+hash
+pwd
+hash
+pwd
+hash
+hasb -l
+hash -l
+hash fndkfnjkdgdfgdfgdf
+hash -o
+test
+${?}
+echo ${?}
+clear 
+exit
+clear 
+make
+exit
+clear 
+clear 
+ls
+clear 
+ú
+ú
+ú
+ú
+ú
+ú
+clear 
+make
+exit
+l
+l
+l
+ú
+ú
+ú
+ú
+ú
+ú
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls 
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+lss
+ls
+clear 
+ls
+clear 
+vle
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clee
+clear 
+exit
+ú
+ú
+clear 
+ls
+make
+ú
+make
+exit
+clear 
+make
+make
+exit
+clear 
+make
+make
+exit
+ú
+make
+exit
+make
+exit
+ú
+clear 
+make
+exit
+make
+exit
+ú
+make
+exit
+ú
+ú
+exit
+123456789
+ú
+make
+clear 
+exit
+ú
+make
+exit
+make
+exit
+make
+exit
+make
+exit
+make
+make
+exit
+ú
+ú
+clear 
+ú
+ú
+clear 
+make
+exit
+ú
+ú
+clear 
+ú
+make
+exit
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+ú
+clear 
+ls
+make
+clear 
+make
+make
+make
+clear 
+exit
+ú
+ú
+clear 
+ls
+clear 
+2
+ú
+ú
+bash
+make
+exit
+ú
+clear 
+ls
+clear 
+ls
+make
+make
+exit
+exit
+exit
+"
+exit
+exit
+exit
+"
+exit
+/
+\
+exit
+\
+\
+\
+\\
+\
+\
+\
+\
+\
+\
+\
+\
+exit
+\
+\
+\
+\
+\dd
+cd \
+l\
+"
+exit
+"
+exit
+"
+"
+clear 
+ls
+"
+clear 
+clear 
+'
+"
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+exit
+exit
+make
+exit
+exit
+exit
+exit
+exit
+\
+\
+exit
+exit
+echo << E
+cat << E
+exit
+cat << d
+clear 
+make
+make
+make
+make
+exit
+exit
+d << d
+cat << d
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+clear 
+exit
+exit
+dddddd
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+exit
+"
+"
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+rxit
+exit
+exiy
+exit
+exit
+exit
+dddd
+clear 
+ls
+clear 
+exit
+clear 
+ls
+exit
+clear 
+ls
+certtool 
+clear 
+exit
+make
+eit
+exit
+clear 
+exit
+exit
+make
+exit
+cat
+fghhg
+clear 
+eix
+exit
+exit
+clear 
+clear 
+ls
+clear 
+ls
+clear 
+make
+exit
+make
+make
+make
+cke
+clear 
+exit
+ls
+dddd
+exit
+exit
+clear 
+make
+eit
+exit
+make
+exit
+make
+exit
+exit
+clear 
+make
+exit
+clear 
+ls
+clear 
+make
+exit
+clear 
+make
+exit
+exit
+make
+exit
+exit
+cc
+make
+exit
+make
+exit
+make
+exit
+make
+exit
+ccc
+make
+exit
+dd
+dd
+alias
+clear 
+ls
+clear 
+ls
+clear 
+ls
+hash
+clear 
+exit
+dd
+clear 
+make
+exit
+exit
+clear 
+cccccc
+ccccccccc
+ccc
+clear 
+make
+exit
+c
+ccc
+cccccccccccc
+make
+exit
+ccccc
+ccccccccccc
+make
+make
+clear 
+exit
+ls
+make
+exit
+make re
+clear 
+exit
+ccccccccc
+ccccccc
+c
+cccc
+cccccccccccccccc
+make
+exit
+cccc
+make
+exit
+"
+cccccccccccccccccccc
+"
+make
+clear 
+exit
+make
+exit
+"
+ccccc
+"
+make
+exit
+ccccccccc
+cat 
+cccccccccc
+clear 
+ls
+"dd"
+clear 
+make
+exit
+make
+exit
+make
+exit
+make
+exit
+cccc
+make
+exit
+make
+exit
+make
+exit
+clear 
+clear 
+ls
+clear 
+ls
+clear 
+make
+exit
+cccc
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+exit
+make
+exit
+ccccccccccccc
+ccccc
+make
+exit
+ccccccc
+ccccccccccc
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+ls
+ddd
+make
+exit
+cccc
+"
+ccccc
+c
+cccc
+exit
+:
+:"
+exit
+cccc
+ccccc
+cccc
+c
+cccc
+cccc
+make
+exit
+ccccc
+make
+exit
+cccccc
+make
+clear 
+make
+make
+exit
+ccc
+123456789
+123456789d
+clear 
+make
+exi
+exit
+exit
+cl
+clear 
+ls
+make
+exit
+ccccc
+ccc
+make
+exit
+clear 
+cc
+make
+make
+exit
+exit
+'
+'
+'
+'
+kkj
+k
+make
+clear 
+exit
+c
+make
+exit
+""
+make
+exit
+make
+make
+clear 
+exit
+"
+"
+make
+exit
+make
+exit
+"
+"
+make
+exit
+"
+ccc
+clear 
+"
+clear 
+make
+exit
+"
+ccc
+"
+exit
+exit
+make
+exit
+clear 
+exit
+make
+exit
+gkhjmv 
+make
+make
+exit
+ls
+pwd
+exit
+ls
+'
+'
+clear
+exit
+ls
+pwd
+cleara
+clear
+exit
+ls
+make
+make
+exit
+clear 
+ls
+clear 
+make
+exit
+ls
+clear 
+ls
+clear 
+ls
+clear 
+make
+exit
+make
+exit
+make
+exit
+exit
+ccccc
+exit
+make
+exit
+clear 
+ls
+clear 
+make
+make
+exit
+exit
+cccccc
+clear 
+exit
+ccc
+make
+exit
+cccc
+clear 
+clear 
+make
+exit
+ccc
+clear 
+exit
+exit
+cccc
+:set nonu
+make
+exit
+ls
+make
+exit
+clear 
+clear 
+clear 
+exit
+cc
+clear 
+make
+make
+exit
+make
+exit
+clear 
+exit
+unset PATH
+l
+ls
+cle
+exit
+ls
+clear 
+make
+exit
+ls
+unset PATH
+exit
+make
+make
+exit
+clear 
+ls
+clear 
+make
+exit
+make
+exit
+clear 
+make
+make
+vim includes/ft_autocmp.h 
+make
+exit
+clear 
+exit
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+exit
+exit
+exit
+exit
+df -bmh ~
+exit
+ls
+s
+exit
+\
+exit
+exit
+\
+l \
+exit
+ls
+\
+exit
+exit
+l \
+el |k
+exit
+l \
+exit
+ls \
+exit
+\
+\
+xit
+exitr
+exit
+l
+l
+exit
+s
+exit
+clear
+exit
+j
+kklkl
+exit
+exit
+cat << E
+cat << E
+cat << E
+cat << E
+exit
+echo << a
+exit
+echo << a
+echo << a
+exit
+echo << a
+echo << a
+cat << a
+exit
+cat << a
+cat << a
+exit
+ls
+hash
+make
+exit
+ls
+hash
+bash
+exit
+ls
+hash
+bash
+hash
+ls
+hash
+hash -l dfdfd
+hash -l ls kk
+hash -l ls
+hash -l
+hash -d ls
+hash -d bash
+hash
+exit
+ls
+hash
+ls
+hash
+hash -r ls dd
+hash
+ls
+hash -r ls dd &>-
+hash -r ls dd &>2-
+ Ñ´í
+hash -r ls dd >&2-
+hash -r ls dd >&2-
+exit
+hash
+ls
+rm "-" "2-"
+ls
+hash
+hash -l
+exit
+ls
+hash
+hash -r ls
+hash
+hash hjkhkj
+hash -d bhjghj
+hash -d bhjgh >&2-
+exit
+ls
+hash
+hash -r ls jk
+hash -r jj >&2-
+rm 2-
+ls
+hash -r jj >&2-
+ls
+rm 2-
+exit
+test fdgdf gdfgdf
+test fdgdf gdfgdf
+test fhjdkhgjdf hgdfjkhgdf >&2-
+cat 2- 
+test fjkdshfjk fhdsklfhjkds 2> test
+cat test 
+test fjkdshfjk fhdsklfhjkds 2>&-
+ls
+rm 2- test 
+ls
+exit
+cccccccccccc
+make
+exit
+ddddddddd
+cccccccc
+cccccccc
+clear 
+cat
+ccccccc
+ccccccc
+clear 
+make
+exit
+exit
+ls
+clear 
+ls
+make
+exit
+ls
+make
+exit
+cat
+ccccccc
+cat
+clear 
+ccccccccc
+cccccccc
+ls
+clear 
+ls
+clear 
+ls
+clear 
+ls
+clear 
+clear 
+make
+exit
+clear 
+make
+exit
+clear 
+make
+ls
+clear 
+exit
+make
+exit
+clear 
+make
+exit
+make
+make
+exit
+ccc
+ccc
+cccccc
+make
+cke
+clear 
+ls
+exit
+dddd
+clear 
+ls
+exit
+ssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+clear 
+clear 
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+exit
+ls
+/usr
+ls
+/usr 2>&-
+ls
+clear 
+exit
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+clear 
+ls
+ls
+clear 
+ls
+exit
+ls
+clear 
+ls -la
+norminette includes/
+norminette includes/
+clear 
+norminette includes/
+norminette includes/
+norminette includes/
+clear 
+norminette includes/
+norminette includes/
+norminette includes/
+ls
+exit
+exit
+exit
+clear
+clear 
+exit
+ls
+exit
+clear 
+exit
+clear 
+exit
+clear 
+exit
+clear 
+exit
+clear 
+exit
+ls ../
+exit
+clear
+ls $LC_TERMINAL_VERSION 
+exit
+clear 
+exit
+lsbom 
+clear 
+automake 
+clear 
+ls
+exit
+clear 
+ls .git/
+clear 
+exit
+alias
+alias l=d
+alias
+make
+exit
+alias
+alias l=s
+alias
+clear 
+alias l=ssss
+alias
+alias kk=123456
+alias
+ls
+clear 
+alias
+unalias l
+alias
+unalias p gg l- lsd lol
+clear 
+ls
+clear 
+ls
+clear 
+exit
+ls
+exit
+exit
+exit
+ll
+lls
+pwd
+ls
+ls jdshdhsds 
+ls &
+exit
+${ls}
+echo ${sksksk}
+lslls
+echo ${?}
+exit
+$
+(ls)
+exit
+(ls)
+exit
+(ls)
+exit
+ls
+pwd
+(ls)
+exit
+(ls)
+exit
+(ls)
+(ls)
+exit
+exit
+exit
+(ls)
+ls
+(ls) >l
+exit
+exit
+(ls)
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+ls
+exit
+ls
+(}; )
+exit
+ls
+(}; )
+( }; )
+(}; )
+exit
+(}; )
+make
+exit
+(}; )
+( }; )
+exit
+(}; )
+exit
+(}; )
+make
+exit
+( }; )
+ls
+( }; )
+( }; ) >l
+( }; ) >&l
+( }; ) >l
+exit
+ls
+(}; )
+exit
+exit
+exit
+clear
+alias ksadkads
+alias ksadkads 2>l
+cat l
+clear
+exit
+exit
+({)
+exit
+exit
+exit
+( {; )
+( dasjas; sllala; )
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+ls
+ls
+exit
+ls
+exit
+exit
+ls
+exit
+exit
+(ls) >l
+(ls) >l
+exit
+exit
+(ls) >&l
+exit
+(ls) 2>l
+cat l
+(ls sdhshd ) 2>l
+cat l
+exit
+(ls)
+(ls) >&1
+make
+exit
+(ls) >&1
+exit
+ls
+exit
+(ls) >&1
+exit
+(ls) >&1
+(ls) >&1
+exit
+(ls) >&1
+exit
+(ls) >&1
+exit
+ls !>&l
+ls 1>&l
+ls ads>&l
+ls
+cat l
+(ls) >&1
+exit
+(ls) >&1
+exit
+(ls) >&1
+exit
+(ls) >&1
+exit
+(ls) >&1
+exit
+(ls | cat -e ) >l
+cat l
+clear
+exit
+exit
+ls
+(ls) 2>l
+(lsadhshadsd) 2>l
+cat l
+ls >l
+echo >l
+cat l
+(lsadhshadsd) 2>l
+cat l
+exit
+(lsadhshadsd) 2>l
+exit
+(ls) >l
+exit
+(ls)
+exit
+exit
+exit
+(ls) 2>l
+(ls adsjdsa) 2>l
+cat l
+exit
+(ls adsjdsa) 2>l
+cat l
+exit
+(ls)
+(ls) >l
+(lsasasd) >l
+(lsasasd) 2>l
+cat l
+exit
+alias =ss
+echo ${?}
+clear 
+exit
+ls
+clear
+$(ls_
+)
+$(ls)
+pwd
+exit

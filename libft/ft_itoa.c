@@ -1,52 +1,61 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoa.c                                          :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-mab <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/12 09:16:45 by zael-mab          #+#    #+#             */
-/*   Updated: 2019/04/19 03:23:34 by zael-mab         ###   ########.fr       */
+/*   Created: 2019/04/09 23:12:36 by ommadhi           #+#    #+#             */
+/*   Updated: 2019/11/22 22:27:58 by ommadhi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_x(int nb)
+static int		len(int n)
 {
-	size_t	j;
+	int		i;
+	int		nb;
 
-	j = 1;
-	while (nb / 10)
+	i = 0;
+	nb = n;
+	if (nb < 0)
+	{
+		i++;
+		nb = nb * -1;
+	}
+	while (nb > 0)
 	{
 		nb = nb / 10;
-		j++;
+		i++;
 	}
-	return (j);
+	return (i);
 }
 
-char		*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
-	char	*str;
-	int		y;
-	int		z;
-	long	nb;
+	int		lent;
+	char	*s;
+	int		i;
 
-	nb = n;
-	y = ft_x(n);
-	z = (n < 0 ? 1 : 0);
-	if (!(str = ft_strnew(y + z)))
+	i = 0;
+	if (n == -2147483648)
+		return (ft_strdup("-2147483648"));
+	if (n == 0)
+		return (ft_strdup("0"));
+	lent = len(n);
+	if (!(s = ft_strnew(lent)))
 		return (NULL);
-	if (z)
+	if (n < 0)
 	{
-		nb = (int long)n * -1;
-		str[0] = '-';
+		n = -n;
+		s[i] = '-';
+		i++;
 	}
-	while (y > 0)
+	while (--lent >= i && n > 0)
 	{
-		str[y + z - 1] = nb % 10 + 48;
-		nb = nb / 10;
-		y--;
+		s[lent] = (n % 10 + '0');
+		n = n / 10;
 	}
-	return (str);
+	return (s);
 }
